@@ -1,0 +1,31 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "description": "My blog",
+  "main": "index.js",
+  "watch": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npm-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crh2302/myHugoBlog.git"
+  },
+  "keywords": [
+    "blog",
+    "hugo"
+  ],
+  "author": "Cervantes Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crh2302/myHugoBlog/issues"
+  },
+  "homepage": "https://github.com/crh2302/myHugoBlog#readme",
+  "dependencies": {
+    "npm-watch": "^0.6.0",
+    "watch": "^1.0.2"
+  }
+}

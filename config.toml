@@ -1,0 +1,62 @@
+baseurl = "/"
+title = "cervantesh's Blog"
+theme = "ghostwriter"
+languageCode = "en-us"
+copyright = "cervantesh"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Privacy]
+
+[Privacy.disqus]
+    disable = true
+
+[Privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = false
+
+[Author]
+    name = "Cervantes Hernandez"
+    profile = "https://github.com/crh2302"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    mainSections = ["post"]
+    intro = true
+    headline = "cervantesh's Blog"
+    description = "TECHNOLOGY BLOG"
+    github = "https://github.com/crh2302"
+    linkedin = "https://linkedin.com/in/cervantesh/"
+    twitter = "https://twitter.com/imadev1411"
+    stackoverflow = "https://stackoverflow.com/users/4888986/cervh"
+    opengraph = true
+    shareTwitter = true
+    shareFacebook = true
+    shareLinkedIn = true
+    dateFormat = "Mon, Jan 2, 2006"
+    highlightJsUrl = ""
+    highlightJsLocalUrl = ""
+    exponeaJsUrl = ""
+    exponeaTarget = ""
+    exponeaToken = ""
+    exponeaTrackVisits = false
+    readingTime = true
+    readingTimeText = "Estimated reading time:"
+    fathomUrl = ""
+    fathomSiteId = ""
+
+[Permalinks]
+    post = "/post/:filename/"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/page/about/"
+    weight = 2
