@@ -1,4 +1,4 @@
-baseurl = "https://cerv.dev/"
+baseurl = "http://cerv.dev.s3-website-us-west-1.amazonaws.com/"
 title = "cervantesh's Blog"
 theme = "ghostwriter"
 languageCode = "en-us"
